@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 140px;
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+.menu {
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.bottom-menu {
+  margin-top: 20px;
+}
+.bottom-menu li {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.info-list {
+  display: flex;
+  justify-content: flex-start;
+}
+.list {
+  display: flex;
+}
+.list li {
+  list-style: none;
+  padding: 10px;
+}
+.order-now {
+  margin: 10px 90px;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  color: black;
+}
+.img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-logo img {
+  width: 100px;
+  height: 100px;
+}
+.bottom-menu {
+  display: flex;
+}
+.menu-item {
+  font-size: 18px;
+  list-style: none;
+  padding: 10px;
+}
+.down-icon {
+  padding: 5px;
+}
+.language-part {
+  background-color: #fff;
+  position: absolute;
+  list-style: none;
+  display: none;
+  box-shadow: 0 0 3px 2px rgb(231, 229, 229);
+}
+.active {
+  z-index: 2;
+  display: block;
+}
+
+.down-list {
+  width: 100%;
+  column-count: 3;
+}
+.down-list-mob {
+  display: none;
+  width: 100%;
+  column-count: 1;
+}
+.close {
+  display: block;
+}
+
+.down-menu {
+  position: absolute;
+  width: 90%;
+  height: 100vh;
+  background-color: #fff;
+  display: none;
+  margin: 30px -170px;
+}
+.down-part {
+  width: 85%;
+  margin: 50px auto;
+}
+/* .down-part.mobile {
+  display: block;
+} */
+.open {
+  z-index: 33;
+  display: block;
+  background-color: #fff;
+}
+.list-item a {
+  display: flex;
+  width: 80px;
+}
+
+.list-item {
+  width: 100%;
+  list-style: none;
+}
+.list-item img {
+  width: 80px;
+  height: 80px;
+}
+.list-item-mob {
+  padding: 20px 0;
+  width: 100%;
+  list-style: none;
+}
+.list-item-mob img {
+  width: 80px;
+  height: 80px;
+}
+.food-name {
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 35px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.food-name-mob {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -70px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.wiew-button {
+  margin: 0 auto;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+}
+.wiew {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #fff;
+  color: black;
+  font-weight: 500;
+}
+.wiew-button-mob {
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+}
+.wiew-mob {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #fff;
+  color: black;
+  font-weight: 500;
+}
+.bars {
+  font-size: 25px;
+  padding: 10px;
+  display: none;
+}
+.bar-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+  background-color: #fff;
+  z-index: 99;
+  right: 0;
+}
+.BarOpen {
+  display: block;
+}
+.bar-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-bar {
+  padding-right: 10px;
+}
+.lang {
+  border-bottom: 1px solid rgb(241, 235, 235);
+  margin-left: 50px;
+}
+.main-bar,
+.karyer {
+  border-bottom: 1px solid rgb(241, 235, 235);
+  margin-left: 50px;
+}
+.main-bar p,
+.lang p,
+.karyer p {
+  padding: 20px;
+  font-size: 16px;
+}
+.karyer {
+  margin-top: 20px;
+}
+.lang {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .bar-menu {
+    left: 0;
+  }
+}
+.bar-lang {
+  display: none;
+}
+.bar-lang.lang-open {
+  display: block;
+}
+.close-langBar {
+  position: absolute;
+  right: 3px;
+  display: none;
+}
+.open-langBar {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.open-langMenu {
+  position: absolute;
+  right: 10px;
+  top: 185px;
+}
