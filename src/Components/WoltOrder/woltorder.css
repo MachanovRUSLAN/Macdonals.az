@@ -1,0 +1,55 @@
+.WoldtOrderPart {
+  padding: 10px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.img-wolt img {
+  width: 100%;
+  padding: 15px;
+}
+
+.WoltContent h1,
+p,
+button {
+  padding: 6px;
+}
+.WoltContent h1 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.WoltContent p {
+  font-size: 19px;
+}
+.WoltContent {
+  padding: 10px 0 0 20px;
+}
+@media (max-width: 768px) {
+  .WoldtOrderPart {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .img-wolt {
+    width: 100%;
+  }
+  .img-wolt img {
+    width: 100%;
+    padding: 0;
+  }
+  .WoltContent {
+    padding: 0;
+  }
+  .WoltContent h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .WoltContent {
+    width: 100%;
+  }
+  br {
+    display: none;
+  }
+}

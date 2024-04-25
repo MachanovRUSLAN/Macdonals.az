@@ -1,0 +1,51 @@
+.MobileAppPart {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.img-mobile img {
+  width: 100%;
+}
+
+.MoileContent h1,
+p,
+button {
+  padding: 6px;
+}
+.MoileContent h1 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.MoileContent p {
+  font-size: 19px;
+}
+.MoileContent {
+  padding: 10px 0 0 20px;
+}
+@media (max-width: 768px) {
+  .MobileAppPart {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .img-mobile img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .img-mobile {
+    width: 100%;
+  }
+  .MoileContent h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .MobileContent {
+    width: 100%;
+  }
+  br {
+    display: none;
+  }
+}
