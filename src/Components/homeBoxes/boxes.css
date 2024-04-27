@@ -12,7 +12,7 @@
 }
 .boxes {
   display: flex;
-  padding: 40px 20px;
+  padding: 60px;
 }
 .box {
   padding: 10px;
@@ -21,7 +21,7 @@
 @media (max-width: 768px) {
   .boxes {
     flex-wrap: wrap;
-    padding: 0 !important;
+    padding: 10px !important;
   }
   .mainImg {
     width: 100%;
@@ -30,5 +30,10 @@
   .boximg {
     width: 100%;
     display: block;
+  }
+}
+@media (max-width: 972px) {
+  .boxes {
+    padding: 60px 0 0 0;
   }
 }

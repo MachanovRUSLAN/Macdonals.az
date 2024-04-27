@@ -1,0 +1,144 @@
+.Footer {
+  width: 90%;
+  margin: 20px auto;
+}
+.head-footer {
+  display: flex;
+}
+.head-footer li {
+  list-style: none;
+  padding: 10px 0 0 0;
+}
+.play-apps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.social-icons span {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-left: 25px;
+}
+
+.facebook:hover {
+  background-color: #3c5a99;
+  color: #fff;
+  border: 1px solid #3c5a99;
+}
+.youtube:hover {
+  background-color: #ce1312;
+  color: #fff;
+  border: 1px solid #ce1312;
+}
+.insta:hover {
+  background-color: #d53474;
+  color: #fff;
+  border: 1px solid #d53474;
+}
+.linkedin:hover {
+  background-color: #0273b2;
+  color: #fff;
+  border: 1px solid #0273b2;
+}
+.footer-mobile {
+  display: none;
+}
+@media (max-width: 992px) {
+  .head-footer {
+    display: none;
+  }
+  .footer-mobile {
+    display: block;
+  }
+}
+.footerMobMenu {
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.footerMobMenu h1 {
+  font-size: 17px;
+}
+
+.servvisDown {
+  margin-top: 10px;
+}
+.AboutUsDown,
+.CarrerDown,
+.ServicesDown,
+.contactUs {
+  display: none;
+}
+
+.AboutUsDown,
+.CarrerDown,
+.ServicesDown,
+.contactUs h1 {
+  padding-top: 10px;
+}
+.ActiveDown {
+  display: block;
+}
+.downh1 {
+  font-weight: 300;
+}
+
+.footer-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 0;
+  border-top: 1px solid #c1bcbc;
+}
+
+.footer-footer img {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-footer p {
+  margin-top: 15px;
+}
+
+@media (max-width: 762px) {
+  .Footer {
+    width: 100%;
+    margin: 0;
+  }
+  .play-apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .apps-imgs {
+    margin-top: 20px;
+  }
+  .footer-footer {
+    border-top: 1px solid rgb(195, 193, 193);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-footer img {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-footer p {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+}

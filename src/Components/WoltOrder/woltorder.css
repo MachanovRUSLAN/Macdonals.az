@@ -1,5 +1,5 @@
 .WoldtOrderPart {
-  padding: 10px;
+  padding: 25px;
   display: flex;
   width: 90%;
   margin: auto;
@@ -10,12 +10,11 @@
 }
 
 .WoltContent h1,
-p,
-button {
+p {
   padding: 6px;
 }
 .WoltContent h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 500;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -23,7 +22,7 @@ button {
   font-size: 19px;
 }
 .WoltContent {
-  padding: 10px 0 0 20px;
+  padding: 10px 4px;
 }
 @media (max-width: 768px) {
   .WoldtOrderPart {
