@@ -9,6 +9,7 @@ import {
   faPlus,
   faMinus,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [down, setDown] = useState(false);
@@ -48,7 +49,8 @@ function Navbar() {
   return (
     <div className="container">
       <div className="img-logo">
-        <img src="https://mcdonalds.az/images/static/mcdonalds-logo.jpg" />
+        <Link to="/home"> <img src="https://mcdonalds.az/images/static/mcdonalds-logo.jpg" /></Link>
+       
         <div className="bars">
           <FontAwesomeIcon icon={faBars} onClick={openMenu} />
           <div className={`bar-menu ${bar ? "BarOpen" : ""}`}>
@@ -187,6 +189,7 @@ function Navbar() {
               <span className="open-langMenu" onClick={toggleLangMenu}>
                 <FontAwesomeIcon icon={langMenuOpen ? faMinus : faPlus} />
               </span>
+              
               <p>Yemeklerimiz Haqqinda</p>
               <p>Restoranlarin unvanlari</p>
             </div>
@@ -210,8 +213,8 @@ function Navbar() {
                 <li>english</li>
               </ul>
             </li>
-            <li>E-məktublara abunəlik</li>
-            <li>Karyera</li>
+            <li><Link to="/email">E-məktublara abunəlik</Link></li>
+            <li><Link to="/carrer">Karyera</Link></li>
           </ul>
           <ul className="bottom-menu">
             <li className="menu-item" onClick={clickMenu}>
@@ -329,8 +332,8 @@ function Navbar() {
                 </div>
               </div>
             </li>
-            <li className="menu-item">Yeməklərimiz haqqında</li>
-            <li className="menu-item">Restoranların ünvanları</li>
+            <li className="menu-item"><Link to="/aboutfood">Yemeklerimiz Haqqinda</Link></li>
+            <li className="menu-item"><Link to="/locations">Restoranların ünvanları</Link></li>
           </ul>
         </div>
       </div>
